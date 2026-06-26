@@ -31,13 +31,13 @@
 
 .sidebar {
   width: 20cqi;
-  height: 100vh;
+  min-height: 100vh;
   top: 0;
   left: 0;
   display: flex;
   flex-shrink: 0;
   flex-direction: column;
-  justify-content: center;
+  padding-top: 150px;
   align-items: center;
   background-color: var(--plum);
   position: fixed;
@@ -77,4 +77,8 @@
 .divider {
   padding-top: 15px;
   padding-bottom: 25px;
+}
+
+.theme-switch {
+  margin-top: auto;
 }

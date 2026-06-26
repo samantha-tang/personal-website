@@ -43,6 +43,7 @@ h1.hero {
 .content-box {
   padding: 10px;
   background-color: light-dark(var(--smoke), var(--licorice));
+  width: 100%;
 }
 
 .wrapper {
