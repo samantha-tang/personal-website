@@ -13,6 +13,7 @@ const Sidebar: React.FC = () => {
       <nav>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
+        <NavLink to="/maths">Maths</NavLink>
       </nav>
       <div className="theme-switch"><ThemeSwitch /></div>
     </div>

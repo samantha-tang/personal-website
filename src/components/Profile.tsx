@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import profileImg from "/src/assets/profile.png";
 import { MailIcon, GitHubIcon } from "./Elements";
 import "./Sidebar.css";
@@ -14,8 +14,8 @@ function SineOverlay({ imgRef, pausedRef}: OverlayProps) {
   const phaseRef = useRef(0)
   const rafRef = useRef<number>(0)
 
-  const [amp] = useState(10)
-  const [speed] = useState(0.1)
+  const amp = 10
+  const speed = 0.1
 
   useEffect(() => {
     const canvas = canvasRef.current
